@@ -1,6 +1,5 @@
-# NachSpigot
-A 1.8 fork of paper which aims to optimize, give long term support for 1.8.9 and add useful apis, 
-Since both Paper and Spigot no longer support the version.
+# KnockbackSpigot
+A Spigot that adds support for modding knockback.
 
-## Discord
+## Discord / Support
 [Join Discord group](https://discord.gg/SBTEbSx)

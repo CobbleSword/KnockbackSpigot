@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import dev.cobblesword.knockback.KnockbackSpigot;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import net.minecraft.server.MinecraftServer;
@@ -215,6 +217,7 @@ public class Main {
                     System.out.println( "Please see http://www.spigotmc.org/wiki/changing-permgen-size/ for more details and more in-depth instructions." );
                 }
                 // Spigot End
+                new KnockbackSpigot();
                 net.techcable.tacospigot.TacoSpigotConfig.init((File) options.valueOf("taco-settings")); // TacoSpigot - load config before we load libraries to allow access while loading
                 System.out.println("Loading libraries, please wait...");
                 MinecraftServer.main(options);

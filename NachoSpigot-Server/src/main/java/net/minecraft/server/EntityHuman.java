@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.UUID;
 
 // CraftBukkit start
+import dev.cobblesword.knockback.KnockbackSpigot;
 import org.bukkit.craftbukkit.entity.CraftHumanEntity;
 import org.bukkit.craftbukkit.entity.CraftItem;
 import org.bukkit.craftbukkit.inventory.CraftItemStack;
@@ -1003,7 +1004,10 @@ public abstract class EntityHuman extends EntityLiving {
 
                     if (flag2) {
                         if (i > 0) {
-                            entity.g((double) (-MathHelper.sin(this.yaw * 3.1415927F / 180.0F) * (float) i * 0.5F), 0.1D, (double) (MathHelper.cos(this.yaw * 3.1415927F / 180.0F) * (float) i * 0.5F));
+                            entity.g(
+                                    (-MathHelper.sin(this.yaw * 3.1415927F / 180.0F) * (float) i * KnockbackSpigot.get().getConfig().knockbackExtraHorizontal),
+                                    KnockbackSpigot.get().getConfig().knockbackExtraVertical,
+                                    (MathHelper.cos(this.yaw * 3.1415927F / 180.0F) * (float) i * KnockbackSpigot.get().getConfig().knockbackExtraHorizontal));
                             this.motX *= 0.6D;
                             this.motZ *= 0.6D;
                             this.setSprinting(false);
