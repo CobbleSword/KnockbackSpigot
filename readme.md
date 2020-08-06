@@ -18,6 +18,10 @@ Edit the `KnockbackSpigot.json` then restart the server
 }
 ```
 
+## Download
+Download [KnockbackSpigot.jar](https://github.com/CobbleSword/KnockbackSpigot/releases/download/1.0/KnockbackSpigot.jar)
+
+
 ## Features per stars
 * 5 stars : reload command for knockback
 * 10 stars : ingame modifying knockback
