@@ -9,18 +9,18 @@
         <version>7</version>
     </parent>
 
-    <groupId>dev.cobblesword.nachospigot</groupId>
+    <groupId>dev.cobblesword.knockbackspigot</groupId>
     <artifactId>parent</artifactId>
     <version>dev-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>NachoSpigot-Parent</name>
+    <name>KnockbackSpigot-Parent</name>
     <description>Parent project for all NachoSpigot modules.</description>
 
 
     <modules>
-        <module>NachoSpigot-Server</module>
-        <module>NachoSpigot-API</module>
+        <module>KnockbackSpigot-Server</module>
+        <module>KnockbackSpigot-API</module>
     </modules>
 
     <properties>

@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>dev.cobblesword.nachospigot</groupId>
+        <groupId>dev.cobblesword.knockbackspigot</groupId>
         <artifactId>parent</artifactId>
         <version>dev-SNAPSHOT</version>
     </parent>
 
-    <groupId>dev.cobblesword.nachospigot</groupId>
+    <groupId>dev.cobblesword.knockbackspigot</groupId>
     <artifactId>api</artifactId>
     <version>1.8.8-R0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>NachoSpigot-API</name>
+    <name>KnockbackSpigot-API</name>
     <description>An enhanced plugin API for Minecraft servers.</description>
 
     <properties>
