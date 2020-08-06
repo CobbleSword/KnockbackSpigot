@@ -28,6 +28,9 @@ Download [KnockbackSpigot.jar](https://github.com/CobbleSword/KnockbackSpigot/re
 * 15 stars : per player knockback modifier
 * 20 stars : Async Pots
 
+## For an optimized 1.8 spigot, checkout NachoSpigot
+The [NachoSpigot](https://github.com/CobbleSword/NachoSpigot) Project
+
 ## Discord / Support
 [Join Discord group](https://discord.gg/SBTEbSx)
 
